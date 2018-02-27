@@ -1,3 +1,5 @@
-天使布局（是否左右绝对定位）
+天使布局（是否左右绝对定位）是
 
 获取浏览器的宽度：$(window).width()【讲特殊属性时讲到】
+
+GitHub：https://sweetbn.github.io/HTML5Page/
