@@ -1,0 +1,60 @@
+/*reset 重置样式*/
+*,::before,::after{
+	padding: 0;
+	margin: 0;
+	/*针对移动端*/
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	/*清除点击高亮*/
+	-webkit-tap-highlight-color:transparent;
+}
+body{
+	font-size: 14px;
+	color: #333;
+	font-family: '微软雅黑',sans-serif;
+}
+
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+
+input,textarea{
+	outline: none;
+	border:none;
+	resize:none;
+
+	/*手机端*/
+	-webkit-appearance:none;
+}
+
+
+/*common 公用样式*/
+
+.fl_left{
+	float: left;
+}
+
+.fl_right{
+	float: right;
+}
+
+.clearfix::after,.clearfix::before{
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+
+.ma_l1o{
+	margin-left: 10px;
+}
+.ma_r10{
+	margin-right: 10px;
+}
